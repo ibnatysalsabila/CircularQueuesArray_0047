@@ -88,4 +88,12 @@ public:
 
 			FRONT_position = 0;
 
-			
+			// Iterasi dari awal array hingga REAR
+			while (FRONT_position <= REAR_position) {
+				cout << queues_array[FRONT_position] << " ";
+				FRONT_position++;
+			}
+			cout << endl;
+		}
+	}
+};
