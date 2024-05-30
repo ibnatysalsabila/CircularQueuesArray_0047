@@ -1,1 +1,3 @@
-include isot
+#include <iostream>
+using namespace std;
+
