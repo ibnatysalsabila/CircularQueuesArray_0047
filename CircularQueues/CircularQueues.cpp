@@ -28,4 +28,14 @@ public:
 			FRONT = 0;
 			REAR = 0;
 		}
-		
+		else {
+			// Jika REAR berada di posisi tearkhir array, kembali ke awal array
+			if (REAR == max - 1)
+				REAR = 0;
+			else
+				REAR = REAR + 1;
+		}
+		queues_array[REAR] = num;
+	}
+
+	
